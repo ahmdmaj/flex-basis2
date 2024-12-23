@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+       
+       .main>*{
+           flex-basis: 200px;
+        }
+       .main{
+            display: inline-flex;
+            flex-direction:row-reverse;
+            width: 1000px;
+        }
+        
+        .red{background-color: red;}
+        .orange{background-color: orange;}
+        .yellow{background-color: yellow;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .indigo{background-color: indigo;}
+        .violet{background-color: violet;}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="red">red</div>
+        <div class="orange">orange</div>
+        <div class="yellow">yellow</div>
+        <div class="green">green</div>
+        <div class="blue">blue</div>
+        <div class="indigo">indigo</div>
+        <div class="violet">violet</div>
+    </div>
+</body>
+</html>
